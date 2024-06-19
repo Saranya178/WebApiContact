@@ -46,9 +46,6 @@ The project is organized into the following main components:
 
  Each API endpoint including their URLs, HTTP methods, descriptions, request payloads (if applicable), and response formats. Here’s an example for each endpoint (GET, POST, PUT, DELETE):
 
-```markdown
-## API Endpoints
-
 ### Get All Contacts
 
 - **URL:** `GET /api/contact`
