@@ -39,7 +39,6 @@ The project is organized into the following main components:
 - **ContactService:** Implements the business logic for managing contacts.
 - **Models:** Defines data models used within the application.
 
-
 ### API Endpoints
 
 ```markdown
