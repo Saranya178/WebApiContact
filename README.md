@@ -42,7 +42,7 @@ The project is organized into the following main components:
 - **ContactService:** Implements the business logic for managing contacts.
 - **Models:** Defines data models used within the application.
 
-## License
+### License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 ### API Endpoints
