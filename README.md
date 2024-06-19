@@ -8,7 +8,6 @@ This is a RESTful API backend for managing contacts, built with .NET Core. It al
 - [Prerequisites](#prerequisites)
 - [Running the API](#running-the-api)
 - [Project Structure](#project-structure)
-- [License](#license)
 - [API Endpoints](#api-endpoints)
 
 
@@ -42,9 +41,7 @@ The project is organized into the following main components:
 - **ContactService:** Implements the business logic for managing contacts.
 - **Models:** Defines data models used within the application.
 
-### License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 ### API Endpoints
 
 Document each API endpoint supported by your project, including their URLs, HTTP methods, descriptions, request payloads (if applicable), and response formats. Here’s an example for each endpoint (GET, POST, PUT, DELETE):
@@ -73,7 +70,71 @@ Document each API endpoint supported by your project, including their URLs, HTTP
       "email": "jane.doe@example.com"
     }
   ]
-  
+
+### Get Contact by ID
+
+- **URL:** `GET /api/contact/{id}`
+- **Description:** Retrieves a contact by its ID
+- **Response Example:**
+
+  ```json
+  {
+  "id": 1,
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com"
+}
+
+###Create a New Contact
+
+- **URL:** `POST /api/contact`
+- **Description:** Creates a new contact.
+- **Request Example:**
+
+  ```json
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com"
+}
+
+- **Response Example:**
+
+  ```json
+{
+  "id": 3,
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com"
+}
+
+###Update an Existing Contact
+
+- **URL:** `PUT /api/contact/{id}`
+- **Description:**  Updates an existing contact.
+- **Request Example:**
+
+  ```json
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com"
+}
+
+- **Response Example:**
+
+  ```json
+{
+  "id": 3,
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com"
+}
+###Delete a Contact
+
+- **URL:** `DELETE /api/contact/{id}`
+- **Description:**  Deletes a contact by its ID.
+- **Response Example:**204 No Content
 
 
 
