@@ -7,9 +7,10 @@ This is a RESTful API backend for managing contacts, built with .NET Core. It al
 - [Setup Instructions](#setup-instructions)
 - [Prerequisites](#prerequisites)
 - [Running the API](#running-the-api)
-- [API Endpoints](#api-endpoints)
 - [Project Structure](#project-structure)
 - [License](#license)
+- [API Endpoints](#api-endpoints)
+
 
 ## Setup Instructions
 
@@ -28,7 +29,22 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/Saranya178/WebApiContact.git
 
+### Project Structure
 
+Provide an overview of how your project is structured. Mention key directories or modules and their purposes. For example:
+
+```markdown
+## Project Structure
+
+The project is organized into the following main components:
+
+- **Controllers:** Contains API controllers for handling HTTP requests.
+- **ContactService:** Implements the business logic for managing contacts.
+- **Models:** Defines data models used within the application.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 ### API Endpoints
 
 Document each API endpoint supported by your project, including their URLs, HTTP methods, descriptions, request payloads (if applicable), and response formats. Here’s an example for each endpoint (GET, POST, PUT, DELETE):
@@ -58,22 +74,7 @@ Document each API endpoint supported by your project, including their URLs, HTTP
     }
   ]
   
-### Project Structure
 
-Provide an overview of how your project is structured. Mention key directories or modules and their purposes. For example:
-
-```markdown
-## Project Structure
-
-The project is organized into the following main components:
-
-- **Controllers:** Contains API controllers for handling HTTP requests.
-- **ContactService:** Implements the business logic for managing contacts.
-- **Models:** Defines data models used within the application.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 
 
