@@ -30,8 +30,6 @@ Ensure you have the following installed:
 
 ### Project Structure
 
-Provide an overview of how your project is structured. Mention key directories or modules and their purposes. For example:
-
 ```markdown
 ## Project Structure
 
@@ -44,7 +42,10 @@ The project is organized into the following main components:
 
 ### API Endpoints
 
-Document each API endpoint supported by your project, including their URLs, HTTP methods, descriptions, request payloads (if applicable), and response formats. Here’s an example for each endpoint (GET, POST, PUT, DELETE):
+```markdown
+## API Endpoints
+
+ Each API endpoint including their URLs, HTTP methods, descriptions, request payloads (if applicable), and response formats. Here’s an example for each endpoint (GET, POST, PUT, DELETE):
 
 ```markdown
 ## API Endpoints
