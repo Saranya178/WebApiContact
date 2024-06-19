@@ -8,7 +8,6 @@ This is a RESTful API backend for managing contacts, built with .NET Core. It al
 - [Prerequisites](#prerequisites)
 - [Running the API](#running-the-api)
 - [API Endpoints](#api-endpoints)
-- [Get All Contacts](#get-all-contacts)
 - [Project Structure](#project-structure)
 - [License](#license)
 
